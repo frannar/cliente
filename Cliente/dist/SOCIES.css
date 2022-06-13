@@ -1,0 +1,8 @@
+body{
+    height: 150vh;
+    display: flx;
+    justify-content: ceter;
+    align-items: ceter;
+    padding: 10px;
+    background: linear-gradient(135deg, #310419, #9b59b6);
+  }
