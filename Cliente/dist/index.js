@@ -6,5 +6,11 @@ const p = document.createElement("p");
 // 3. Add the text content
 p.textContent = "a";
 // 4. Append the p element to the div element
-app === null || app === void 0 ? void 0 : app.appendChild(p)
-
+app === null || app === void 0 ? void 0 : app.appendChild(p);
+fetch("http://localhost:5000/socies/")
+    .then(resp => {
+    resp.json()
+        .then(data => {
+        console.log(data.mensaje);
+    });
+});
